@@ -1,7 +1,7 @@
 public class Hello {
 
     public String greet() {
-        return "Hello, world";
+        return "Hello";
     }
 
     public static void main(String[] args) {
