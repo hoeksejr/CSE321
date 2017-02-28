@@ -5,6 +5,6 @@ public class TestHello extends TestCase {
     public void testHello()
     {
         Hello h = new Hello();
-        assertEquals(h.greet(), "Hello, world");
+        assertTrue(h.greet(), "Hello, world");
     }
 }
